@@ -1,0 +1,272 @@
+nav{
+    height: 90px;
+   
+  }
+
+.producto {
+    height: auto;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.sec1 {
+    top: 100px;
+    display: flex;
+    position: relative;
+    width: 100%;
+   
+    margin-bottom: 150px;
+
+}
+ 
+.fotosProd {
+    position: relative;
+   
+    left: 0;
+    height: auto;
+
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+
+.fotosProd div {
+flex-basis: 50%;
+
+overflow: hidden;
+}
+
+
+
+
+.fotosProd img {
+
+    height: 100%;
+    max-width: 100%;
+   
+    transition: opacity 0.3s ease-in-out;
+}
+
+.fotosProd img:hover {
+  
+    animation: lupa 1s forwards ;
+  }
+
+
+@keyframes lupa{
+    100%{
+        transform: scale(1.15);
+    }
+}
+
+
+
+
+
+
+.main {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    height: auto;
+
+    width: 40%;
+
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+.description {
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.size {
+
+    margin-bottom: 10px;
+    display: inline-block;
+
+    padding-bottom: 50px;
+
+}
+
+.size p {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.size table {
+    font-size: 1.2em;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.size-cell {
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+
+}
+
+.size-cell:hover {
+    background-color: lightgray;
+    color: #000000;
+}
+.size-cell.selected:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.selected {
+    background-color: #000000;
+    color: #fff;
+}
+
+
+
+
+
+.options {
+    display: flex;
+    width: 100%;
+
+}
+
+.add {
+    background-color: #593af3;
+    width: 80%;
+    border: 1.3px solid black;
+    border-right: 0;
+    height: 60px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+
+}
+
+.add:hover {
+    background-color: #000000;
+}
+
+.like2 {
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 20%;
+}
+
+.like2 .heart2 {
+    fill: #ffffff;
+    stroke: black;
+    stroke-width: 1px;
+    transition: fill 0.1s ease-in-out;
+}
+
+.likeee:checked + svg .heart2 {
+    fill: red;
+  }
+
+  .likeee {
+    display: none;
+  
+  }
+
+.like2 .heart2:hover {
+    stroke-width: 1.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 850px) {
+
+    .producto {
+        height: auto;
+    }
+
+    .cont {
+        flex-direction: column;
+    }
+
+    .sec1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+    }
+
+    .fotosProd {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .fotosProd img {
+        height: auto;
+        max-width: 100%;
+        ;
+    }
+
+    
+
+}

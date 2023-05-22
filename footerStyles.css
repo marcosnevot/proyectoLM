@@ -1,0 +1,138 @@
+footer {
+    background-color: #000000;
+    padding: 30px 0;
+    padding-bottom: 10px;
+  
+    color: #FFFFFF;
+    
+  }
+  
+  footer h5 {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+    text-decoration: none;
+    
+  }
+  
+  footer ul li a {
+    color: #7f7f7f;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  footer ul li a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  footer .container {
+    display: flex;
+    justify-content: flex-start;
+    height:auto;
+  }
+
+  footer .row {
+    width: 100%;
+  }
+
+  .footer-cols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 60px; /* Aquí puedes cambiar la separación entre las columnas a tu gusto */
+  }
+
+  .footer-cols .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-left: 90px;
+  }
+
+  
+
+  .footer-cols h5 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  .footer-cols ul {
+    list-style: none;
+    padding: 0;
+    
+  
+  }
+
+  .footer-cols ul li a {
+    color: #7f7f7f;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  .footer-cols ul li a:hover {
+    color: #ffffff;
+  }
+  .social{
+    padding-right: 40px;
+  }
+  .social ul {
+    list-style: none;
+    
+  }
+
+  .social ul li a {
+    display:block;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 10px;
+    background: #000000;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    list-style: none;
+}
+
+.social ul li a i {
+  font-size: 20px; /* tamaño de fuente actual */
+}
+
+
+
+.social ul li a:hover {
+    background: #ddd;
+}
+.social ul li a:hover i {
+    color: #000000;
+}
+.social ul li a:hover:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+}
+
+  footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7f7f7f;
+  }
+  
+  
+

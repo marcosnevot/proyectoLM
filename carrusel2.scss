@@ -1,0 +1,15 @@
+.carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+   
+    scroll-behavior: smooth;
+    height: auto;
+    margin: 40px;
+    scrollbar-width: 0;
+    flex-shrink: 0;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    
+  }

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+body {
+    border: 1px solid purple;
+}
+
+.logo2 {
+    height: 90px;
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 23;
+}
+
+.logo2 img {
+
+    position: relative;
+    z-index: 10;
+    height: 200px;
+    width: auto;
+    margin-top: 50px;
+
+
+}
+
+
+.container2 {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: start;
+}
+
+.one {
+    background-image: url('img/paisaje1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+.two {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;min-height: 100vh;
+    position: relative;
+}
+
+
+
+.three {
+
+    background-image: url('img/paisaje3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+.four {
+
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+
+.video-wrapper{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+  
+  .video-wrapper video {
+    flex: 1;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.one,
+.two,
+.three,
+.four {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.text-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top: 20px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.418); /* Define un fondo semitransparente */
+    color: white;
+    z-index: 22;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
+    height: auto;
+    width: auto;
+    width: 100%;
+    
+  }
+
+  .text-area h1 {
+    font-size: 2.3rem;
+    padding-bottom: 5px;
+  }
+
+.text-area p{
+font-size: 25px;
+text-align: center;
+padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

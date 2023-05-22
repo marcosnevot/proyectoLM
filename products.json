@@ -1,0 +1,184 @@
+{
+    "promociones": {
+        "id": "prom",
+        "h2": "Promociones",
+        "carrusel": {
+            "elemento": [
+                {
+                    "img": {
+                        "src": "img/prom1.jpg",
+                        "alt": "Zapatillas"
+                    },
+                    "productDescr": {
+                        "h3": "Adidas Originals Handball",
+                        "p": "¡50% de descuento!"
+                    }
+                },
+                {
+                    "a": {
+                        "href": "prom2index.html",
+                        "img": {
+                            "src": "img/prom2.webp",
+                            "alt": "Zapatillas"
+                        },
+                        "productDescr": {
+                            "h3": "Nike Air Max Plus",
+                            "p": "¡30% de descuento!"
+                        }
+                    }
+                },
+                {
+                    "a": {
+                        "href": "prom3index.html",
+                        "img": {
+                            "src": "img/prom3.jpg",
+                            "alt": "Zapatillas"
+                        },
+                        "productDescr": {
+                            "h3": "Nike Zoom Mercurial Superfly",
+                            "p": "¡30% de descuento!"
+                        }
+                    }
+                },
+                {
+                    "a": {
+                        "href": "prom4index.html",
+                        "img": {
+                            "src": "img/prom4.jpg",
+                            "alt": "Zapatillas"
+                        },
+                        "productDescr": {
+                            "h3": "Converse ChuckTaylor",
+                            "p": "¡20% de descuento!"
+                        }
+                    }
+                },
+                {
+                    "a": {
+                        "href": "prom5index.html",
+                        "img": {
+                            "src": "img/prom5.webp",
+                            "alt": "Zapatillas"
+                        },
+                        "productDescr": {
+                            "h3": "Karl Kani 89 High",
+                            "p": "¡25% de descuento!"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "productos": {
+        "id": "prod",
+        "h2": "Novedades",
+        "ul": {
+            "li": [
+                {
+                    "a": {
+                        "href": "#",
+                        "img": {
+                            "src": "img/nov1.webp",
+                            "alt": "Zapatillas"
+                        },
+                        "details": {
+                            "h3": "Nike Air Force 1 '07 LV8",
+                            "p": "$100"
+                        }
+                    }
+                },
+                {
+                    "a": {
+                        "href": "#",
+                        "img": {
+                            "src": "img/nov2.webp",
+                            "alt": "Zapatillas"
+                        },
+                        "details": {
+                            "h3": "Adidas Originals Jeans",
+                            "p": "$150"
+                        }
+                    }
+                },
+                {
+                    "a": {
+                        "href": "#",
+                        "img": {
+                            "src": "img/nov3.webp",
+                            "alt": "Zapatillas"
+                        },
+                        "details": {
+                            "h3": "Fila Teratach",
+                            "p": "$120"
+                        }
+                    }
+                },
+                {
+                    "a": {
+                        "href": "#",
+                        "img": {
+                            "src": "img/nov4.webp",
+                            "alt": "Zapatillas"
+                        },
+                        "details": {
+                            "h3": "Jordan 6 rings",
+                            "p": "$180"
+                        }
+                    }
+                },
+                {
+                    "a": {
+                        "href": "#",
+                        "img": {
+                            "src": "img/nov5.webp",
+                            "alt": "Zapatillas"
+                        },
+                        "details": {
+                            "h3": "Lacoste Twin Serve",
+                            "p": "$105"
+                        }
+                    }
+                },
+                {
+                    "a": {
+                        "href": "#",
+                        "img": {
+                            "src": "img/nov6.webp",
+                            "alt": "Zapatillas"
+                        },
+                        "details": {
+                            "h3": "Nike Air Trainer 1",
+                            "p": "$110"
+                        }
+                    }
+                },
+                {
+                    "a": {
+                        "href": "#",
+                        "img": {
+                            "src": "img/nov7.webp",
+                            "alt": "Zapatillas"
+                        },
+                        "details": {
+                            "h3": "Converse All Star High Utility",
+                            "p": "$110"
+                        }
+                    }
+                },
+                {
+                    "a": {
+                        "href": "#",
+                        "img": {
+                            "src": "img/nov7.webp",
+                            "alt": "Zapatillas"
+                        },
+                        "details": {
+                            "h3": "Converse All Star High Utility",
+                            "p": "$110"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

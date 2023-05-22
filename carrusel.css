@@ -1,0 +1,102 @@
+
+/* Cambiar el ancho del scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho del scrollbar */
+}
+
+/* Cambiar el color del scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color del thumb (parte móvil del scrollbar) */
+}
+
+/* Cambiar el color del fondo del scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color del fondo del scrollbar */
+}
+
+
+
+
+.carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  height: auto;
+  margin: 40px;
+ 
+  flex-shrink: 0;
+}
+
+
+
+
+
+.elemento{
+  flex: 1 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 0, 0, 0);
+  width: 500px;
+  height: 500px;
+  height: auto;
+  scroll-snap-align: start;
+}
+.elemento:last-child{
+  margin-right: 0;
+}
+
+
+.elemento img {
+  max-width: 100%;
+  height: auto;
+  transition: 0.2s ease-in-out;
+  z-index: -1;
+  
+}
+
+
+.elemento a {
+  text-decoration: none;
+}
+
+.elemento h3 {
+  margin: 0.5rem 0;
+  text-decoration: none;
+  text-align: left;
+  color: #000000c7;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+}
+
+.elemento p {
+  color: rgb(14, 212, 34);
+  font-weight: bold;
+  margin: 0.5rem 0;
+
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.productDescr {
+  display: flex;
+  text-align: top;
+  justify-content: space-between;
+  margin-right: 15px;
+  padding-bottom: 40px;
+
+
+}
+
+@media (max-width: 768px) {
+ 
+  
+  .elemento {
+    width:300px;
+    
+  }
+}

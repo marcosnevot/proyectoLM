@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mantImg {
+
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-40%);
+    
+}
+
+
+
+.mantImg img {
+    height: 200px;
+    width: 200px;animation: bobble 3s infinite ease-in-out;
+}
+
+.mantText {
+
+    height: 100px;
+    width: 700px;
+
+
+    justify-content: center;
+    transform: translateY(-70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mantText p {
+    font-size: 2.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes bobble {
+    0% {
+    transform: translateY(10px);
+    }
+    50% {
+    transform: translateY(40px);
+    }
+    100% {
+    transform: translateY(10px);
+    }
+    }
